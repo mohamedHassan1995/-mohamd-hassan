@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.Calculator" parent="@style/Theme.Leanback" />
+</resources>
