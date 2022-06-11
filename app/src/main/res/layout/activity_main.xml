@@ -276,7 +276,8 @@
                 android:background="@color/background_gradient_start"
                 android:backgroundTint="@color/lb_default_search_icon_color"
                 android:backgroundTintMode="add"
-                android:foregroundTint="@color/lb_default_search_color"
+                android:foreground="@android:drawable/ic_input_delete"
+                android:foregroundTint="@color/lb_default_brand_color"
                 android:foregroundTintMode="src_in"
                 android:freezesText="false"
                 android:outlineProvider="bounds"
@@ -288,7 +289,6 @@
                 android:paddingRight="1dp"
                 android:paddingBottom="1dp"
                 android:requiresFadingEdge="horizontal|vertical"
-                android:text="X"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
         </LinearLayout>
